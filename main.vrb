@@ -1,0 +1,26 @@
+\frametitle{Plotting ancestors and descendants}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{semiverbatim}
+> statUI <- statGeneal[which(statGeneal
+$school=="University of Iowa"),]$child
+> length(statUI)
+[1] 54
+> numDUI <- sapply(statUI, dFunc)
+> table(numDUI)
+numDUI
+ 0  1  7 25
+48  4  1  1
+> which(numDUI==25)
+Edward Wegman
+> which(numDUI==7)
+Daniel Nettleton
+\end{semiverbatim}
+\end{column}
+\begin{column}{0.5\textwidth}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.5]{dNett.png}}
+\end{figure}
+\end{column}
+\end{columns}
