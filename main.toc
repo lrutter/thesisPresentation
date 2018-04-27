@@ -3,4 +3,4 @@
 \beamer@sectionintoc {2}{Why visualize RNA-seq}{7}{0}{2}
 \beamer@sectionintoc {3}{Software to visualize RNA-seq}{36}{0}{3}
 \beamer@sectionintoc {4}{Gene expression in bees}{41}{0}{4}
-\beamer@sectionintoc {5}{Timeline}{54}{0}{5}
+\beamer@sectionintoc {5}{Timeline}{55}{0}{5}
