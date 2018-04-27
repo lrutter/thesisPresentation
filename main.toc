@@ -1,4 +1,4 @@
 \select@language {french}
 \beamer@sectionintoc {1}{Visualizing genealogy}{4}{0}{1}
-\beamer@sectionintoc {2}{Visualizing RNA-seq DEGS}{6}{0}{2}
-\beamer@sectionintoc {3}{Timeline}{7}{0}{3}
+\beamer@sectionintoc {2}{Case for Visualizing RNA-seq}{7}{0}{2}
+\beamer@sectionintoc {3}{Timeline}{22}{0}{3}
