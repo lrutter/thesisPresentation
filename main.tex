@@ -107,8 +107,8 @@ genealogical datasets
 \end{figure}
 \end{frame}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% DEGS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Case for Visualizing RNA-seq}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CHAPTER 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Why visualize RNA-seq}
 
 \begin{frame}
 \begin{center}
@@ -146,12 +146,12 @@ methods in RNA-seq analysis
 	\end{itemize}
 \end{frame}
 
-\begin{frame}{}
-\begin{figure}
-\centering
-\fbox{\includegraphics[scale=0.45]{images/sbIRClustersSig.jpg}}
-\end{figure}
-\end{frame}
+% \begin{frame}{}
+% \begin{figure}
+% \centering
+% \fbox{\includegraphics[scale=0.45]{images/sbIRClustersSig.jpg}}
+% \end{figure}
+% \end{frame}
 
 \begin{frame}{}
 \begin{figure}
@@ -159,7 +159,7 @@ methods in RNA-seq analysis
 \fbox{\includegraphics[scale=0.45]{images/sbCNSM.jpg}}
 \end{figure}
 
-\centering{https://rnaseqvisualization.shinyapps.io/scatmat}
+\centering\href{https://rnaseqvisualization.shinyapps.io/scatmat}{Interactive version}
 
 \end{frame}
 
@@ -250,63 +250,303 @@ methods in RNA-seq analysis
 \begin{frame}{}
 \begin{figure}
 \centering
-\fbox{\includegraphics[scale=0.13]{images/lkClustersKeepSM-St.jpg}}
+\fbox{\includegraphics[scale=0.37]{images/lkClustersKeepSM.jpg}}
 \end{figure}
 \end{frame}
 
 \begin{frame}{}
 \begin{figure}
 \centering
-\fbox{\includegraphics[scale=0.13]{images/lkClustersOrigSM-St.jpg}}
+\fbox{\includegraphics[scale=0.37]{images/lkClustersOrigSM.jpg}}
 \end{figure}
 \end{frame}
 
 \begin{frame}{}
 \begin{figure}
 \centering
-\fbox{\includegraphics[scale=0.13]{images/lkClustersRemoveSM-St.jpg}}
+\fbox{\includegraphics[scale=0.37]{images/lkClustersRemoveSM.jpg}}
 \end{figure}
 \end{frame}
 
 \begin{frame}{}
 \begin{figure}
 \centering
-\fbox{\includegraphics[scale=0.13]{images/lkClustersAddSM-St.jpg}}
+\fbox{\includegraphics[scale=0.37]{images/lkClustersAddSM.jpg}}
 \end{figure}
 \end{frame}
 
 \begin{frame}{}
 \begin{figure}
 \centering
-\fbox{\includegraphics[scale=0.13]{images/litreClusterKeep-St.jpg}}
+\fbox{\includegraphics[scale=0.37]{images/lkClustersKeepSM-St.jpg}}
 \end{figure}
 \end{frame}
 
 \begin{frame}{}
 \begin{figure}
 \centering
-\fbox{\includegraphics[scale=0.13]{images/litreClusterOrig-St.jpg}}
+\fbox{\includegraphics[scale=0.37]{images/lkClustersOrigSM-St.jpg}}
 \end{figure}
 \end{frame}
 
 \begin{frame}{}
 \begin{figure}
 \centering
-\fbox{\includegraphics[scale=0.13]{images/litreClusterRemove-St.jpg}}
+\fbox{\includegraphics[scale=0.37]{images/lkClustersRemoveSM-St.jpg}}
 \end{figure}
 \end{frame}
 
 \begin{frame}{}
 \begin{figure}
 \centering
-\fbox{\includegraphics[scale=0.13]{images/litreClusterAdd-St.jpg}}
+\fbox{\includegraphics[scale=0.37]{images/lkClustersAddSM-St.jpg}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.25]{images/litreClusterKeep-St.jpg}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.25]{images/litreClusterOrig-St.jpg}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.23]{images/litreClusterRemove-St.jpg}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.23]{images/litreClusterAdd-St.jpg}}
 \end{figure}
 \end{frame}
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CHAPTER 3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Software to visualize RNA-seq}
+
+\begin{frame}
+\begin{center}
+\fcolorbox{black}{titleColor}{
+\begin{minipage}{\textwidth}
+\begin{center}
+\huge \textbf{Chapter 3:} Software for visualization \\
+methods in RNA-seq analysis
+\end{center}
+\end{minipage}
+}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+		\item Developing software package bigPint
+		\begin{itemize}		  
+		  \item BIG multivariate data Plotted INTeractively
+		\end{itemize}		
+		\item Plan to submit to Bioconductor
+		\item Input parameters are popular RNA-seq software output
+		\item Methods are built using
+		\begin{itemize}
+		  \item R
+		  \item ggplot2
+		  \item plotly
+		  \item shiny
+		  \item htmlwidgets
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{}
+\begin{figure}
+    \centering
+    \fbox{\includemedia[width=0.9\textwidth, addresource=images/scatMatPi.mov, deactivate=onclick, flashvars={source=images/scatMatPi.mov}]{\includegraphics{images/scatMatPi.jpg}}{VPlayer.swf}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{}
+\begin{figure}
+    \centering
+    \fbox{\includemedia[width=0.9\textwidth, addresource=images/scatMatFC.mov, deactivate=onclick, flashvars={source=images/scatMatFC.mov}]{\includegraphics{images/scatMatFC.jpg}}{VPlayer.swf}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{}
+\begin{figure}
+    \centering
+    \fbox{\includemedia[width=0.9\textwidth, addresource=images/volcano.mov, deactivate=onclick, flashvars={source=images/volcano.mov}]{\includegraphics{images/volcano.jpg}}{VPlayer.swf}}
+\end{figure}
+\end{frame}
 
 
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CHAPTER 4 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Gene expression in bees}
 
+\begin{frame}
+\begin{center}
+\fcolorbox{black}{titleColor}{
+\begin{minipage}{\textwidth}
+\begin{center}
+\huge \textbf{Chapter 4:} Gene expression responses to diet\\
+quality and viral infection in Apis mellifera
+\end{center}
+\end{minipage}
+}
+\end{center}
+\end{frame}
+
+\begin{frame}{Introduction}
+\begin{itemize}
+	\item Bees have undergone unusually large declines in U.S. and parts of Europe over the past decade
+	\item Bees are the leading pollinator of numerous crops so their loss threatens agricultural sustainability 
+	\item Bee declines are associated with several factors, likely interactive
+	\begin{itemize}
+		\item Poor nutrition
+	  \item Parasites
+	  \item Pesticide use
+	  \item Pathogens
+	  \item Habitate loss
+	\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Monofloral diet quality and IAPV}
+\begin{itemize}
+	\item Bees are confronted with less diverse pollen due to urbanization
+	\begin{itemize}
+	  \item Pollen is main source of nutrition
+	  \item Mixed-pollen (polyfloral) usually healthier than single-pollen (monofloral)
+	  \item Beekeepers rank poor nutrition as one major cause of colony loss
+	\end{itemize}
+	\item Bees are exposed to viruses more due to spread of ectoparasitic mite
+	\begin{itemize}
+	  \item Mite feeds on hemolymph and transmits viruses
+	  \item Israeli Acute Paralysis Virus (IAPV)
+	  \begin{itemize}
+	    \item Causes shivering wings, muscle spams, paralysis, premature death
+	    \item High infectious capacity
+	    \item Implicated in damaging colony strength and survival    
+	  \end{itemize}
+	\end{itemize}	
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Phenotypic findings}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.47]{images/mortality.png}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Current study transcriptomic follow-up}
+\begin{itemize}
+  \item Aim to understand molecular underpinnings of how good diet buffers against virus-induced mortality
+    \begin{itemize}
+      \item Resistance (direct and specific effects on immune function)
+      \item Resilience (indirect effects on energy availability and vigor)
+    \end{itemize}
+  \item RNA-seq analysis on four treatment groups
+    \begin{itemize}
+      \item Low quality diet (Rockrose) with no viral inoculation (NR)
+      \item Low quality diet (Rockrose) with IAPV inoculation (VR)
+      \item High quality diet (Chestnut) with no viral inoculation (NC)
+      \item High quality diet (Chestnut) with IAPV inoculation (VC)
+    \end{itemize}
+  \item Compare our results to previous study on bee genomics response to IAPV inoculation
+    \begin{itemize}
+      \item We used polyandrous colonies (25\% genetically identical)
+      \item They (Galbraith et al.) used single-drone colonies (75\% genetically identical)
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Contrasts}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.35]{images/contrasts.png}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Main effect DEG results}
+\begin{itemize}
+  \item Diet had larger transcriptomic response (n = 1914)
+    \begin{itemize}
+      \item More up-regulation in Chesnut (n = 1033) versus Rockrose (n = 881)
+      \item Genes enriched in nutrient signaling (insulin resistance) metabolism and
+immune response (Notch signaling and JaK-STAT pathways)
+    \end{itemize}
+  \item Virus had smaller transcriptomic response (n = 43)
+    \begin{itemize}
+      \item More up-regulation in Virus (n = 38) versus Non-virus (n = 3)
+      \item Genes enriched in argonaute-2, gene similar to MD-2 lipid recognition protein, transcriptional regulation, and muscle contraction
+    \end{itemize}  
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Other results}
+\begin{itemize}
+  \item No interaction terms
+  \item Resistance candidate genes had functions related to
+  \begin{itemize}
+    \item Carbohydrate metabolism
+    \item Chitin metabolism
+    \item Cell adhesion
+    \item Regulation of transcription
+  \end{itemize}
+  \item Resilience candidate genes had functions related to
+    \begin{itemize}
+    \item Carbohydrate metabolism
+    \item Chitin metabolism
+    \item Immune response
+    \item Regulation of transcription
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Comparison to Galbraith study}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.35]{images/C_T_4.jpg}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Comparison to Galbraith study}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.35]{images/N_V_4.jpg}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Comparison to Galbraith study}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.35]{images/litreClusterRutter.png}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Comparison to Galbraith study}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.35]{images/litreCluster2.png}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Comparison to Galbraith study}
+\begin{figure}
+\centering
+\fbox{\includegraphics[scale=0.35]{images/GRVenn.png}}
+\end{figure}
+\end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TIMELINE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Timeline}

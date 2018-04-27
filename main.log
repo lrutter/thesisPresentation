@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  27 APR 2018 04:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  27 APR 2018 12:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1748,7 +1748,7 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 
 [4
 
-] <images/JSS.png, id=78, 575.14874pt x 585.18625pt>
+] <images/JSS.png, id=98, 575.14874pt x 585.18625pt>
 File: images/JSS.png Graphic file (type png)
  <use images/JSS.png>
 Package pdftex.def Info: images/JSS.png used on input line 101.
@@ -1761,7 +1761,7 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [5
 
  <./images/JSS.png>]
-<images/ggenealogyCRAN.png, id=90, 963.6pt x 561.09625pt>
+<images/ggenealogyCRAN.png, id=112, 963.6pt x 561.09625pt>
 File: images/ggenealogyCRAN.png Graphic file (type png)
 
 <use images/ggenealogyCRAN.png>
@@ -1786,7 +1786,7 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 
 [7
 
-] <images/RNASeqDesign.png, id=110, 793.96625pt x 468.75125pt>
+] <images/RNASeqDesign.png, id=136, 793.96625pt x 468.75125pt>
 File: images/RNASeqDesign.png Graphic file (type png)
 
 <use images/RNASeqDesign.png>
@@ -1800,7 +1800,7 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [8
 
  <./images/RNASeqDesign.png>]
-<images/mdsBox.png, id=121, 609.9588pt x 483.7272pt>
+<images/mdsBox.png, id=149, 609.9588pt x 483.7272pt>
 File: images/mdsBox.png Graphic file (type png)
  <use images/mdsBox.png>
 Package pdftex.def Info: images/mdsBox.png used on input line 138.
@@ -1819,23 +1819,10 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 
 [10
 
-] <images/sbIRClustersSig.jpg, id=141, 631.35875pt x 468.75125pt>
-File: images/sbIRClustersSig.jpg Graphic file (type jpg)
-
-<use images/sbIRClustersSig.jpg>
-Package pdftex.def Info: images/sbIRClustersSig.jpg used on input line 154.
-(pdftex.def)             Requested size: 284.10881pt x 210.9361pt.
-
-Overfull \hbox (2.35556pt too wide) has occurred while \output is active
-[][] 
- []
-
-[11
-
- <./images/sbIRClustersSig.jpg>]
-<images/sbCNSM.jpg, id=152, 538.01pt x 487.8225pt>
+] <images/sbCNSM.jpg, id=174, 538.01pt x 487.8225pt>
 File: images/sbCNSM.jpg Graphic file (type jpg)
- <use images/sbCNSM.jpg>
+
+<use images/sbCNSM.jpg>
 Package pdftex.def Info: images/sbCNSM.jpg used on input line 164.
 (pdftex.def)             Requested size: 242.10226pt x 219.5181pt.
 
@@ -1843,10 +1830,10 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
-[12
+[11
 
  <./images/sbCNSM.jpg>]
-<images/yeastWithinBetween.png, id=164, 289.08pt x 241.90375pt>
+<images/yeastWithinBetween.png, id=188, 289.08pt x 241.90375pt>
 File: images/yeastWithinBetween.png Graphic file (type png)
 
 <use images/yeastWithinBetween.png>
@@ -1857,10 +1844,10 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
-[13
+[12
 
  <./images/yeastWithinBetween.png>]
-<images/yeastWithinBetween2.png, id=176, 289.08pt x 244.915pt>
+<images/yeastWithinBetween2.png, id=201, 289.08pt x 244.915pt>
 File: images/yeastWithinBetween2.png Graphic file (type png)
 
 <use images/yeastWithinBetween2.png>
@@ -1872,10 +1859,10 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
-[14
+[13
 
  <./images/yeastWithinBetween2.png>]
-<images/sbCNSwitchedSM.jpg, id=187, 538.01pt x 487.8225pt>
+<images/sbCNSwitchedSM.jpg, id=215, 538.01pt x 487.8225pt>
 File: images/sbCNSwitchedSM.jpg Graphic file (type jpg)
 
 <use images/sbCNSwitchedSM.jpg>
@@ -1886,10 +1873,10 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
-[15
+[14
 
  <./images/sbCNSwitchedSM.jpg>]
-<images/mdsSwitch.png, id=198, 627.7854pt x 608.5134pt>
+<images/mdsSwitch.png, id=228, 627.7854pt x 608.5134pt>
 File: images/mdsSwitch.png Graphic file (type png)
 
 <use images/mdsSwitch.png>
@@ -1900,10 +1887,10 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
-[16
+[15
 
  <./images/mdsSwitch.png>]
-<images/sbIRStreak.jpg, id=209, 388.45125pt x 444.66125pt>
+<images/sbIRStreak.jpg, id=241, 388.45125pt x 444.66125pt>
 File: images/sbIRStreak.jpg Graphic file (type jpg)
 
 <use images/sbIRStreak.jpg>
@@ -1914,10 +1901,10 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
-[17
+[16
 
  <./images/sbIRStreak.jpg>]
-<images/sbIRDEG.jpg, id=220, 387.4475pt x 487.8225pt>
+<images/sbIRDEG.jpg, id=254, 387.4475pt x 487.8225pt>
 File: images/sbIRDEG.jpg Graphic file (type jpg)
  <use images/sbIRDEG.jpg>
 Package pdftex.def Info: images/sbIRDEG.jpg used on input line 206.
@@ -1927,10 +1914,10 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
-[18
+[17
 
  <./images/sbIRDEG.jpg>]
-<images/lkSM.jpg, id=231, 496.85625pt x 446.66875pt>
+<images/lkSM.jpg, id=267, 496.85625pt x 446.66875pt>
 File: images/lkSM.jpg Graphic file (type jpg)
  <use images/lkSM.jpg>
 Package pdftex.def Info: images/lkSM.jpg used on input line 213.
@@ -1940,10 +1927,10 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
-[19
+[18
 
  <./images/lkSM.jpg>]
-<images/lkClusters.jpg, id=243, 460.72125pt x 377.41pt>
+<images/lkClusters.jpg, id=280, 460.72125pt x 377.41pt>
 File: images/lkClusters.jpg Graphic file (type jpg)
 
 <use images/lkClusters.jpg>
@@ -1954,10 +1941,10 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
-[20
+[19
 
  <./images/lkClusters.jpg>]
-<images/lkClustersKeep.jpg, id=254, 1003.75pt x 1806.75pt>
+<images/lkClustersKeep.jpg, id=295, 1003.75pt x 1806.75pt>
 File: images/lkClustersKeep.jpg Graphic file (type jpg)
 
 <use images/lkClustersKeep.jpg>
@@ -1968,16 +1955,463 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
-[21
+[20
 
  <./images/lkClustersKeep.jpg>]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 246.
+<images/lkClustersOrig.jpg, id=307, 1003.75pt x 1806.75pt>
+File: images/lkClustersOrig.jpg Graphic file (type jpg)
+
+<use images/lkClustersOrig.jpg>
+Package pdftex.def Info: images/lkClustersOrig.jpg used on input line 234.
+(pdftex.def)             Requested size: 130.49208pt x 234.88574pt.
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[21
+
+ <./images/lkClustersOrig.jpg>]
+<images/lkClustersRemove.jpg, id=319, 1003.75pt x 1806.75pt>
+File: images/lkClustersRemove.jpg Graphic file (type jpg)
+
+<use images/lkClustersRemove.jpg>
+Package pdftex.def Info: images/lkClustersRemove.jpg used on input line 241.
+(pdftex.def)             Requested size: 130.49208pt x 234.88574pt.
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[22
+
+ <./images/lkClustersRemove.jpg>]
+<images/lkClustersAdd.jpg, id=331, 1003.75pt x 1806.75pt>
+File: images/lkClustersAdd.jpg Graphic file (type jpg)
+
+<use images/lkClustersAdd.jpg>
+Package pdftex.def Info: images/lkClustersAdd.jpg used on input line 248.
+(pdftex.def)             Requested size: 130.49208pt x 234.88574pt.
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[23
+
+ <./images/lkClustersAdd.jpg>]
+<images/lkClustersKeepSM.jpg, id=343, 633.36626pt x 557.08125pt>
+File: images/lkClustersKeepSM.jpg Graphic file (type jpg)
+
+<use images/lkClustersKeepSM.jpg>
+Package pdftex.def Info: images/lkClustersKeepSM.jpg used on input line 255.
+(pdftex.def)             Requested size: 234.34184pt x 206.11684pt.
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[24
+
+ <./images/lkClustersKeepSM.jpg>]
+<images/lkClustersOrigSM.jpg, id=356, 633.36626pt x 557.08125pt>
+File: images/lkClustersOrigSM.jpg Graphic file (type jpg)
+
+<use images/lkClustersOrigSM.jpg>
+Package pdftex.def Info: images/lkClustersOrigSM.jpg used on input line 262.
+(pdftex.def)             Requested size: 234.34184pt x 206.11684pt.
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[25
+
+ <./images/lkClustersOrigSM.jpg>]
+<images/lkClustersRemoveSM.jpg, id=370, 633.36626pt x 557.08125pt>
+File: images/lkClustersRemoveSM.jpg Graphic file (type jpg)
+
+<use images/lkClustersRemoveSM.jpg>
+Package pdftex.def Info: images/lkClustersRemoveSM.jpg used on input line 269.
+(pdftex.def)             Requested size: 234.34184pt x 206.11684pt.
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[26
+
+ <./images/lkClustersRemoveSM.jpg>]
+<images/lkClustersAddSM.jpg, id=383, 633.36626pt x 557.08125pt>
+File: images/lkClustersAddSM.jpg Graphic file (type jpg)
+
+<use images/lkClustersAddSM.jpg>
+Package pdftex.def Info: images/lkClustersAddSM.jpg used on input line 276.
+(pdftex.def)             Requested size: 234.34184pt x 206.11684pt.
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[27
+
+ <./images/lkClustersAddSM.jpg>]
+<images/lkClustersKeepSM-St.jpg, id=396, 633.36626pt x 557.08125pt>
+File: images/lkClustersKeepSM-St.jpg Graphic file (type jpg)
+
+<use images/lkClustersKeepSM-St.jpg>
+Package pdftex.def Info: images/lkClustersKeepSM-St.jpg used on input line 283.
+
+(pdftex.def)             Requested size: 234.34184pt x 206.11684pt.
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[28
+
+ <./images/lkClustersKeepSM-St.jpg>]
+<images/lkClustersOrigSM-St.jpg, id=409, 633.36626pt x 557.08125pt>
+File: images/lkClustersOrigSM-St.jpg Graphic file (type jpg)
+
+<use images/lkClustersOrigSM-St.jpg>
+Package pdftex.def Info: images/lkClustersOrigSM-St.jpg used on input line 290.
+
+(pdftex.def)             Requested size: 234.34184pt x 206.11684pt.
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[29
+
+ <./images/lkClustersOrigSM-St.jpg>]
+<images/lkClustersRemoveSM-St.jpg, id=423, 633.36626pt x 557.08125pt>
+File: images/lkClustersRemoveSM-St.jpg Graphic file (type jpg)
+
+<use images/lkClustersRemoveSM-St.jpg>
+Package pdftex.def Info: images/lkClustersRemoveSM-St.jpg used on input line 29
+7.
+(pdftex.def)             Requested size: 234.34184pt x 206.11684pt.
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[30
+
+ <./images/lkClustersRemoveSM-St.jpg>]
+<images/lkClustersAddSM-St.jpg, id=436, 633.36626pt x 557.08125pt>
+File: images/lkClustersAddSM-St.jpg Graphic file (type jpg)
+
+<use images/lkClustersAddSM-St.jpg>
+Package pdftex.def Info: images/lkClustersAddSM-St.jpg used on input line 304.
+(pdftex.def)             Requested size: 234.34184pt x 206.11684pt.
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[31
+
+ <./images/lkClustersAddSM-St.jpg>]
+<images/litreClusterKeep-St.jpg, id=450, 566.115pt x 800.7516pt>
+File: images/litreClusterKeep-St.jpg Graphic file (type jpg)
+
+<use images/litreClusterKeep-St.jpg>
+Package pdftex.def Info: images/litreClusterKeep-St.jpg used on input line 311.
+
+(pdftex.def)             Requested size: 141.5284pt x 200.18741pt.
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[32
+
+ <./images/litreClusterKeep-St.jpg>]
+<images/litreClusterOrig-St.jpg, id=463, 569.4876pt x 800.7516pt>
+File: images/litreClusterOrig-St.jpg Graphic file (type jpg)
+
+<use images/litreClusterOrig-St.jpg>
+Package pdftex.def Info: images/litreClusterOrig-St.jpg used on input line 318.
+
+(pdftex.def)             Requested size: 142.37155pt x 200.18741pt.
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[33
+
+ <./images/litreClusterOrig-St.jpg>]
+<images/litreClusterRemove-St.jpg, id=476, 873.5034pt x 1009.371pt>
+File: images/litreClusterRemove-St.jpg Graphic file (type jpg)
+
+<use images/litreClusterRemove-St.jpg>
+Package pdftex.def Info: images/litreClusterRemove-St.jpg used on input line 32
+5.
+(pdftex.def)             Requested size: 200.90155pt x 232.15045pt.
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[34
+
+ <./images/litreClusterRemove-St.jpg>]
+<images/litreClusterAdd-St.jpg, id=489, 867.24pt x 980.463pt>
+File: images/litreClusterAdd-St.jpg Graphic file (type jpg)
+
+<use images/litreClusterAdd-St.jpg>
+Package pdftex.def Info: images/litreClusterAdd-St.jpg used on input line 332.
+(pdftex.def)             Requested size: 199.461pt x 225.50174pt.
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[35
+
+ <./images/litreClusterAdd-St.jpg>]
+Overfull \hbox (12.46674pt too wide) in paragraph at lines 349--349
+ [][][] 
+ []
+
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[36
+
+]
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[37
+
+] <images/scatMatPi.jpg, id=526, 959.585pt x 727.71875pt>
+File: images/scatMatPi.jpg Graphic file (type jpg)
+
+<use images/scatMatPi.jpg>
+Package pdftex.def Info: images/scatMatPi.jpg used on input line 375.
+(pdftex.def)             Requested size: 959.58266pt x 727.71696pt.
+\g__file_internal_ior=\read3
+<<VPlayer.swf>><<images/scatMatPi.mov>>
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[38
+
+ <./images/scatMatPi.jpg>]
+<images/scatMatFC.jpg, id=560, 955.57pt x 728.7225pt>
+File: images/scatMatFC.jpg Graphic file (type jpg)
+
+<use images/scatMatFC.jpg>
+Package pdftex.def Info: images/scatMatFC.jpg used on input line 382.
+(pdftex.def)             Requested size: 955.56767pt x 728.72072pt.
+<<images/scatMatFC.mov>>
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[39
+
+ <./images/scatMatFC.jpg>]
+<images/volcano.jpg, id=587, 957.5775pt x 709.65125pt>
+File: images/volcano.jpg Graphic file (type jpg)
+
+<use images/volcano.jpg>
+Package pdftex.def Info: images/volcano.jpg used on input line 389.
+(pdftex.def)             Requested size: 957.57516pt x 709.6495pt.
+<<images/volcano.mov>>
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[40
+
+ <./images/volcano.jpg>]
+Overfull \hbox (12.46674pt too wide) in paragraph at lines 406--406
+ [][][] 
+ []
+
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[41
+
+]
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[42
+
+]
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[43
+
+] <images/mortality.png, id=647, 653.8026pt x 375.3222pt>
+File: images/mortality.png Graphic file (type png)
+
+<use images/mortality.png>
+Package pdftex.def Info: images/mortality.png used on input line 449.
+(pdftex.def)             Requested size: 307.28726pt x 176.40146pt.
+
+Overfull \hbox (6.79738pt too wide) in paragraph at lines 449--449
+ [] 
+ []
+
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[44
+
+ <./images/mortality.png>]
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[45
+
+] <images/contrasts.png, id=672, 785.93625pt x 501.875pt>
+File: images/contrasts.png Graphic file (type png)
+
+<use images/contrasts.png>
+Package pdftex.def Info: images/contrasts.png used on input line 478.
+(pdftex.def)             Requested size: 275.0818pt x 175.65887pt.
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[46
+
+ <./images/contrasts.png>]
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[47
+
+]
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[48
+
+] <images/C_T_4.jpg, id=707, 1003.75pt x 702.625pt>
+File: images/C_T_4.jpg Graphic file (type jpg)
+ <use images/C_T_4.jpg>
+Package pdftex.def Info: images/C_T_4.jpg used on input line 521.
+(pdftex.def)             Requested size: 351.31776pt x 245.92242pt.
+
+Overfull \hbox (50.82788pt too wide) in paragraph at lines 521--521
+ [] 
+ []
+
+
+Overfull \vbox (45.79582pt too high) detected at line 521
+ []
+
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[49
+
+ <./images/C_T_4.jpg>] <images/N_V_4.jpg, id=720, 1003.75pt x 702.625pt>
+File: images/N_V_4.jpg Graphic file (type jpg)
+
+<use images/N_V_4.jpg>
+Package pdftex.def Info: images/N_V_4.jpg used on input line 528.
+(pdftex.def)             Requested size: 351.31776pt x 245.92242pt.
+
+Overfull \hbox (50.82788pt too wide) in paragraph at lines 528--528
+ [] 
+ []
+
+
+Overfull \vbox (45.79582pt too high) detected at line 528
+ []
+
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[50
+
+ <./images/N_V_4.jpg>]
+<images/litreClusterRutter.png, id=732, 657.657pt x 674.0382pt>
+File: images/litreClusterRutter.png Graphic file (type png)
+
+<use images/litreClusterRutter.png>
+Package pdftex.def Info: images/litreClusterRutter.png used on input line 535.
+(pdftex.def)             Requested size: 230.1834pt x 235.9169pt.
+
+Overfull \vbox (26.2903pt too high) detected at line 535
+ []
+
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[51
+
+ <./images/litreClusterRutter.png>]
+<images/litreCluster2.png, id=745, 657.1752pt x 672.5928pt>
+File: images/litreCluster2.png Graphic file (type png)
+
+<use images/litreCluster2.png>
+Package pdftex.def Info: images/litreCluster2.png used on input line 542.
+(pdftex.def)             Requested size: 230.01477pt x 235.411pt.
+
+Overfull \vbox (25.7844pt too high) detected at line 542
+ []
+
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[52
+
+ <./images/litreCluster2.png>]
+<images/GRVenn.png, id=758, 677.4108pt x 190.311pt>
+File: images/GRVenn.png Graphic file (type png)
+ <use images/GRVenn.png>
+Package pdftex.def Info: images/GRVenn.png used on input line 549.
+(pdftex.def)             Requested size: 237.09734pt x 66.60983pt.
+
+Overfull \hbox (2.35556pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[53
+
+ <./images/GRVenn.png>]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 566.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (4.00392pt too wide) in paragraph at lines 246--246
+Overfull \hbox (4.00392pt too wide) in paragraph at lines 566--566
 []|\T1/lmr/m/n/8 Presentation| 
  []
 
@@ -1986,10 +2420,10 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
-[22
+[54
 
 ]
-Underfull \hbox (badness 1189) in paragraph at lines 264--264
+Underfull \hbox (badness 1189) in paragraph at lines 584--584
 []|\T1/lmr/m/n/8 Second re-lease of \T1/lmtt/m/n/8 ggenealogy \T1/lmr/m/n/8 pa-
 ckage,
  []
@@ -1999,35 +2433,35 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
-[23
+[55
 
 ]
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
-[24
+[56
 
 ]
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
-[25
+[57
 
 ]
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
-[26
+[58
 
 ]
 Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 [][] 
  []
 
-[27
+[59
 
 ]
 \tf@nav=\write8
@@ -2039,22 +2473,22 @@ Overfull \hbox (2.35556pt too wide) has occurred while \output is active
 \tf@snm=\write10
 \openout10 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 312.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 312.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 632.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 632.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 312.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 312.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 632.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 632.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0EDD8606497841ACD63F4F2F92BC6B0F;162.
+(rerunfilecheck)             Checksum: CD08281B380BAE3795EB4B0824C80AC8;277.
  ) 
 Here is how much of TeX's memory you used:
- 35292 strings out of 492995
- 716618 string characters out of 6132704
- 821167 words of memory out of 5000000
- 38131 multiletter control sequences out of 15000+600000
- 582951 words of font info for 55 fonts, out of 8000000 for 9000
+ 35652 strings out of 492995
+ 724058 string characters out of 6132704
+ 821238 words of memory out of 5000000
+ 38397 multiletter control sequences out of 15000+600000
+ 585939 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,16n,85p,10401b,570s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,16n,85p,10401b,730s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
 texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/20
 17/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2017/texmf-d
@@ -2066,10 +2500,10 @@ l/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/20
 17/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2017/texmf-d
 ist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2017/texmf-dist/fonts/
 type1/public/lm/lmtt8.pfb>
-Output written on main.pdf (27 pages, 2011566 bytes).
+Output written on main.pdf (59 pages, 26741579 bytes).
 PDF statistics:
- 372 PDF objects out of 1000 (max. 8388607)
- 290 compressed objects within 3 object streams
- 58 named destinations out of 1000 (max. 500000)
- 142 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 910 PDF objects out of 1000 (max. 8388607)
+ 733 compressed objects within 8 object streams
+ 124 named destinations out of 1000 (max. 500000)
+ 454 words of extra memory for PDF output out of 10000 (max. 10000000)
 
