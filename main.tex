@@ -30,6 +30,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 
+\shorthandoff{:}
+
 \begin{frame}
   \titlepage
 \end{frame}
@@ -37,26 +39,26 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% BACKGROUND %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\section{My Background}
 
-\begin{frame}{My Background}
-
-\begin{itemize}
-		\item Education
-		\begin{itemize}
-		  \item B.S. in Bioengineering\\ \textit{Pennsylvania State University} (2003-2007)
-		  \item Major in Bioinformatics and Computational Biology\\ \textit{Iowa State University} (2012-Present)
-		  \item Minor in Statistics\\ \textit{Iowa State University} (2012-Present)
-		\end{itemize}
-		\item Internships
-		\begin{itemize}
-			\item Nagaoka University of Technology (Summer 2012)
-		  \item Okinawa Institute of Science and Technology (Summer 2014)
-		  \item MathWorks (Summer 2016)
-		  \item After Inc. (Fall 2016)
-		  \item Google Summer of Code (Summer 2017)
-		  \item GeneLab (Pending - Summer 2018)
-		\end{itemize}
-	\end{itemize}
-\end{frame}
+% \begin{frame}{My Background}
+% 
+% \begin{itemize}
+% 		\item Education
+% 		\begin{itemize}
+% 		  \item B.S. in Bioengineering\\ \textit{Pennsylvania State University} (2003-2007)
+% 		  \item Major in Bioinformatics and Computational Biology\\ \textit{Iowa State University} (2012-Present)
+% 		  \item Minor in Statistics\\ \textit{Iowa State University} (2012-Present)
+% 		\end{itemize}
+% 		\item Internships
+% 		\begin{itemize}
+% 			\item Nagaoka University of Technology (Summer 2012)
+% 		  \item Okinawa Institute of Science and Technology (Summer 2014)
+% 		  \item MathWorks (Summer 2016)
+% 		  \item After Inc. (Fall 2016)
+% 		  \item Google Summer of Code (Summer 2017)
+% 		  \item GeneLab (Pending - Summer 2018)
+% 		\end{itemize}
+% 	\end{itemize}
+% \end{frame}
 
 
 \begin{frame}{Chapter Outline}
@@ -166,6 +168,13 @@ methods in RNA-seq analysis
 \begin{frame}{}
 \begin{figure}
 \centering
+\fbox{\includegraphics[scale=0.44]{images/sbIRDEG.jpg}}
+\end{figure}
+\end{frame}
+
+\begin{frame}{}
+\begin{figure}
+\centering
 \fbox{\includegraphics[scale=0.75]{images/yeastWithinBetween.png}}
 \end{figure}
 \end{frame}
@@ -195,13 +204,6 @@ methods in RNA-seq analysis
 \begin{figure}
 \centering
 \fbox{\includegraphics[scale=0.49]{images/sbIRStreak.jpg}}
-\end{figure}
-\end{frame}
-
-\begin{frame}{}
-\begin{figure}
-\centering
-\fbox{\includegraphics[scale=0.44]{images/sbIRDEG.jpg}}
 \end{figure}
 \end{frame}
 
@@ -422,7 +424,7 @@ quality and viral infection in Apis mellifera
 
 \begin{frame}{Monofloral diet quality and IAPV}
 \begin{itemize}
-	\item Bees are confronted with less diverse pollen due to urbanization
+	\item Bees are confronted with habitat loss and loss of floral diversity and forage
 	\begin{itemize}
 	  \item Pollen is main source of nutrition
 	  \item Mixed-pollen (polyfloral) usually healthier than single-pollen (monofloral)
@@ -433,7 +435,7 @@ quality and viral infection in Apis mellifera
 	  \item Mite feeds on hemolymph and transmits viruses
 	  \item Israeli Acute Paralysis Virus (IAPV)
 	  \begin{itemize}
-	    \item Causes shivering wings, muscle spams, paralysis, premature death
+	    \item Causes shivering wings, muscle spasms, paralysis, premature death
 	    \item High infectious capacity
 	    \item Implicated in damaging colony strength and survival    
 	  \end{itemize}
@@ -457,15 +459,15 @@ quality and viral infection in Apis mellifera
     \end{itemize}
   \item RNA-seq analysis on four treatment groups
     \begin{itemize}
-      \item Low quality diet (Rockrose) with no viral inoculation (NR)
-      \item Low quality diet (Rockrose) with IAPV inoculation (VR)
-      \item High quality diet (Chestnut) with no viral inoculation (NC)
-      \item High quality diet (Chestnut) with IAPV inoculation (VC)
+      \item \textbf{NR}: No viral inoculation and low quality diet (Rockrose)
+      \item \textbf{VR}: IAPV viral inoculation and low quality diet (Rockrose)
+      \item \textbf{NC}: No viral inoculation and high quality diet (Chestnut)
+      \item \textbf{VC}: IAPV viral inoculation and high quality diet (Chestnut)
     \end{itemize}
   \item Compare our results to previous study on bee genomics response to IAPV inoculation
     \begin{itemize}
       \item We used polyandrous colonies (25\% genetically identical)
-      \item They (Galbraith et al.) used single-drone colonies (75\% genetically identical)
+      \item They (Galbraith et al.) used single drone inseminated queen colonies (75\% genetically identical)
     \end{itemize}
 \end{itemize}
 \end{frame}
@@ -473,21 +475,21 @@ quality and viral infection in Apis mellifera
 \begin{frame}{Contrasts}
 \begin{figure}
 \centering
-\fbox{\includegraphics[scale=0.35]{images/contrasts.png}}
+\includegraphics[scale=0.45]{images/ResVenn2.png}
 \end{figure}
 \end{frame}
 
 \begin{frame}{Main effect DEG results}
 \begin{itemize}
-  \item Diet had larger transcriptomic response (n = 1914)
+  \item Diet had larger transcriptomic response (n: 1914)
     \begin{itemize}
-      \item More up-regulation in Chesnut (n = 1033) versus Rockrose (n = 881)
+      \item Chesnut (n: 1033) versus Rockrose (n: 881)
       \item Genes enriched in nutrient signaling (insulin resistance) metabolism and
 immune response (Notch signaling and JaK-STAT pathways)
     \end{itemize}
-  \item Virus had smaller transcriptomic response (n = 43)
+  \item Virus had smaller transcriptomic response (n: 43)
     \begin{itemize}
-      \item More up-regulation in Virus (n = 38) versus Non-virus (n = 3)
+      \item Virus (n: 38) versus Non-virus (n: 3)
       \item Genes enriched in argonaute-2, gene similar to MD-2 lipid recognition protein, transcriptional regulation, and muscle contraction
     \end{itemize}  
 \end{itemize}
@@ -500,15 +502,15 @@ immune response (Notch signaling and JaK-STAT pathways)
   \begin{itemize}
     \item Carbohydrate metabolism
     \item Chitin metabolism
-    \item Cell adhesion
     \item Regulation of transcription
+    \item Cell adhesion
   \end{itemize}
   \item Resilience candidate genes had functions related to
     \begin{itemize}
     \item Carbohydrate metabolism
     \item Chitin metabolism
-    \item Immune response
     \item Regulation of transcription
+    \item Immune response
   \end{itemize}
 \end{itemize}
 \end{frame}
@@ -523,7 +525,7 @@ immune response (Notch signaling and JaK-STAT pathways)
 \begin{frame}{Comparison to Galbraith study}
 \begin{figure}
 \centering
-\fbox{\includegraphics[scale=0.27]{images/N_V_4.jpg}}
+\fbox{\includegraphics[scale=0.36]{images/N_V_4.png}}
 \end{figure}
 \end{frame}
 
@@ -566,84 +568,85 @@ immune response (Notch signaling and JaK-STAT pathways)
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% TIMELINE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Timeline}
+% \section{Timeline}
+% 
+% \begin{frame}{Completed work}
+% \begin{tabular}{|p{1.5cm}|p{5.5cm}|p{1.8cm}|}
+%  \hline
+%  \textbf{Product} & \textbf{Description} & \textbf{Date} \\ 
+%  \hline
+%  R package & First release of \texttt{ggenealogy}, which provides visualization tools for genealogical datasets & March 2015 \\
+%  \hline
+%  Presentation & Presented \texttt{ggenealogy} at JSM & August 2015 \\
+%  \hline
+%  Award & Student paper award at ASA Statistical Computing and Graphics Section & August 2015 \\
+%  \hline
+% \end{tabular}
+% \end{frame}
 
-\begin{frame}{Completed work}
-\begin{tabular}{|p{1.5cm}|p{5.5cm}|p{1.8cm}|}
- \hline
- \textbf{Product} & \textbf{Description} & \textbf{Date} \\ 
- \hline
- R package & First release of \texttt{ggenealogy}, which provides visualization tools for genealogical datasets & March 2015 \\
- \hline
- Presentation & Presented \texttt{ggenealogy} at JSM & August 2015 \\
- \hline
- Award & Student paper award at ASA Statistical Computing and Graphics Section & August 2015 \\
- \hline
-\end{tabular}
-\end{frame}
+% \begin{frame}{Scheduled deliverables}
+% \begin{tabular}{|p{1.5cm}|p{5.5cm}|p{1.8cm}|}
+%  \hline
+%  \textbf{Product} & \textbf{Description} & \textbf{Date} \\ 
+%  \hline
+%  R package & Second release of \texttt{ggenealogy} package, which provides visualization tools for genealogical datasets & May 2016 \\
+%  \hline
+%  Paper & Submit \texttt{ggenealogy} paper to JSS & May 2016 \\
+%  \hline
+%  R package & First release of package that provides visualization tools for RNA-sequencing datasets & TBD \\
+%  \hline
+%  Paper & Submit paper about visualization tools for clustering analysis of RNA-sequencing & TBD \\
+%  \hline
+%  Paper & Submit paper about visualization tools for significance testing of RNA-sequencing & TBD \\
+%  \hline
+% \end{tabular}
+% \end{frame}
 
-\begin{frame}{Scheduled deliverables}
-\begin{tabular}{|p{1.5cm}|p{5.5cm}|p{1.8cm}|}
- \hline
- \textbf{Product} & \textbf{Description} & \textbf{Date} \\ 
- \hline
- R package & Second release of \texttt{ggenealogy} package, which provides visualization tools for genealogical datasets & May 2016 \\
- \hline
- Paper & Submit \texttt{ggenealogy} paper to JSS & May 2016 \\
- \hline
- R package & First release of package that provides visualization tools for RNA-sequencing datasets & TBD \\
- \hline
- Paper & Submit paper about visualization tools for clustering analysis of RNA-sequencing & TBD \\
- \hline
- Paper & Submit paper about visualization tools for significance testing of RNA-sequencing & TBD \\
- \hline
-\end{tabular}
-\end{frame}
+% \begin{frame}{Other work}
+% \begin{tabular}{|p{1.5cm}|p{5.5cm}|p{1.8cm}|}
+%  \hline
+%  \textbf{Product} & \textbf{Description} & \textbf{Date} \\ 
+%  \hline
+%  R package & First release of ePort package that generates electronic reports for instructors to evaluate student performance & July 2016 \\
+%  \hline
+% \end{tabular}
+% \end{frame}
 
-\begin{frame}{Other work}
-\begin{tabular}{|p{1.5cm}|p{5.5cm}|p{1.8cm}|}
- \hline
- \textbf{Product} & \textbf{Description} & \textbf{Date} \\ 
- \hline
- R package & First release of ePort package that generates electronic reports for instructors to evaluate student performance & July 2016 \\
- \hline
-\end{tabular}
-\end{frame}
+% \begin{frame}{References}
+%   \begin{itemize}
+%     \item \texttt{ggplot2} (Wickham 2009)
+%     \item \texttt{GGally} (Schloerke et al. 2016)
+%     \item \texttt{nullabor} (Wickham et al. 2014)
+%     \item \texttt{ggbio} (Yin et al. 2012)
+%     \item \texttt{GGobi} (Swayne et al. 2003)
+%     \item \texttt{tourr} (Wickham et al. 2011)
+%     \item \texttt{plotly} (Sievert et al. 2016)
+%     \item Parallel coordinate plots (Inselberg 1985, Wegman 1990)
+%     \item Visual statistical inference (Chowdhury et al. 2015)
+% 	\end{itemize}
+% \end{frame}
 
-\begin{frame}{References}
-  \begin{itemize}
-    \item \texttt{ggplot2} (Wickham 2009)
-    \item \texttt{GGally} (Schloerke et al. 2016)
-    \item \texttt{nullabor} (Wickham et al. 2014)
-    \item \texttt{ggbio} (Yin et al. 2012)
-    \item \texttt{GGobi} (Swayne et al. 2003)
-    \item \texttt{tourr} (Wickham et al. 2011)
-    \item \texttt{plotly} (Sievert et al. 2016)
-    \item Parallel coordinate plots (Inselberg 1985, Wegman 1990)
-    \item Visual statistical inference (Chowdhury et al. 2015)
-	\end{itemize}
-\end{frame}
-
-\begin{frame}{References}
-  \begin{itemize}
-    \item \texttt{pedigree} (Coster 2013)
-    \item \texttt{kinship2} (Therneau et al. 2015)
-    \item \texttt{GraphViz} (Gansner and North 2000)
-    \item \texttt{Cytoscape} (Shannon et al. 2003)
-    \item \texttt{explorase} (Lawrence et al. 2008)
-    \item \texttt{edgeR} (Robinson et al. 2010)
-    \item \texttt{DESeq2} (Love at al. 2014)
-    \item \texttt{RUVseq} (Risso et al. 2014)
-    \item Gene expression visual inference (Yin et al. 2013)
-    \item Biological clustering: (Newell et al. 2013)
-	\end{itemize}
-\end{frame}
+% \begin{frame}{References}
+%   \begin{itemize}
+%     \item \texttt{pedigree} (Coster 2013)
+%     \item \texttt{kinship2} (Therneau et al. 2015)
+%     \item \texttt{GraphViz} (Gansner and North 2000)
+%     \item \texttt{Cytoscape} (Shannon et al. 2003)
+%     \item \texttt{explorase} (Lawrence et al. 2008)
+%     \item \texttt{edgeR} (Robinson et al. 2010)
+%     \item \texttt{DESeq2} (Love at al. 2014)
+%     \item \texttt{RUVseq} (Risso et al. 2014)
+%     \item Gene expression visual inference (Yin et al. 2013)
+%     \item Biological clustering: (Newell et al. 2013)
+% 	\end{itemize}
+% \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% EXTRA %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}{Leaves at 120 minutes - 3 Clusters}
-% \begin{figure}
-% \centering
-% \fbox{\includegraphics[scale=0.65]{indSBGenes2.png}}
-% \end{figure}
-\end{frame}
+% \begin{frame}{Leaves at 120 minutes - 3 Clusters}
+% % \begin{figure}
+% % \centering
+% % \fbox{\includegraphics[scale=0.65]{indSBGenes2.png}}
+% % \end{figure}
+% \end{frame}
+
 \end{document}

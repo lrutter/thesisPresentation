@@ -1,6 +1,5 @@
 \select@language {french}
-\beamer@sectionintoc {1}{Visualizing genealogy}{4}{0}{1}
-\beamer@sectionintoc {2}{Why visualize RNA-seq}{7}{0}{2}
-\beamer@sectionintoc {3}{Software to visualize RNA-seq}{36}{0}{3}
-\beamer@sectionintoc {4}{Gene expression in bees}{41}{0}{4}
-\beamer@sectionintoc {5}{Timeline}{55}{0}{5}
+\beamer@sectionintoc {1}{Visualizing genealogy}{3}{0}{1}
+\beamer@sectionintoc {2}{Why visualize RNA-seq}{6}{0}{2}
+\beamer@sectionintoc {3}{Software to visualize RNA-seq}{35}{0}{3}
+\beamer@sectionintoc {4}{Gene expression in bees}{40}{0}{4}
